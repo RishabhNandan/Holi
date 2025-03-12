@@ -99,3 +99,25 @@ video
         -webkit-filter: hue-rotate(700deg);
     }
 }
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
+
+.line {
+    height: 2px;
+    background-color: #000;
+    width: 100%;
+}
+
+.copy {
+    text-align: center;
+    padding: 10px;
+    background: #f1f1f1; 
+}
